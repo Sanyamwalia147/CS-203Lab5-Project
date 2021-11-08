@@ -1,0 +1,27 @@
+                                                                // Project Submission Intermediate //
+
+
+*Group Members:
+  1>Jyoti Dhiman - 2020csb1092
+  2>Sanyam Walian - 2020csb1122
+  3>Rohit Kinha  -  2020csb1118
+
+module car_parking_sys
+(
+input clk;//for taking clock signal as input
+input rst;//
+input sensor_entrance;//to get the status of the sensor at the entrance
+input sensor_exit;//to get the status of the sensor at the exit
+input [3:0] pass1,pass2;// for 4 bit passwords that would be required at the time of entering of the car and its exit
+output wire green_light,red light;
+output reg [6:0] HEX_1,HEX_2;
+);
+
+
+
+
+////Respected Sir,
+We know that we were assigned FPGA project but as we all are currently at our respective homes, we have requested you to kindly 
+assign us the project that could be done online.
+As of now we don't have any clear instruction on how we are supposed to do this project.
+So, we have not defined FPGA input/output pins, which we will do once we get an clear instruction.
